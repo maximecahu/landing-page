@@ -92,14 +92,14 @@ a {
     justify-content: space-between;
     padding-top: 20px;
     width: 100vh;
-    padding-inline: 25vh;
+    padding-inline: 50vh;
 }
 
 .top-container {
     display: flex;
     justify-content: space-between;
     width: 100vh;
-    padding-inline: 25vh;
+    padding-inline: 50vh;
     padding-block: 120px;
     height: 300px;
 }
@@ -114,7 +114,6 @@ a {
 
 .top-right {
     width: 500px;
-    /*background-color: gray;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,6 +124,7 @@ a {
     height: 300px;
     border-radius: 5px;
     flex-grow: 2;
+    object-fit: cover;
 }
 
 .middle-container {
@@ -196,6 +196,8 @@ li>img {
 
 footer {
     height: 80px;
+    width: 100vh;
+    padding-inline: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
